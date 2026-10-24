@@ -1,0 +1,626 @@
+0 verbose cli D:\node.exe D:\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:D:\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\sures\Downloads\ML Early Warning System\.npmrc
+5 silly config load:file:C:\Users\sures\.npmrc
+6 silly config load:file:C:\Users\sures\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:C:\Users\sures\Downloads\ML Early Warning System\%USERPROFILE%\.npm-cache\_logs\2026-10-24T07_01_58_116Z-
+10 verbose logfile C:\Users\sures\Downloads\ML Early Warning System\%USERPROFILE%\.npm-cache\_logs\2026-10-24T07_01_58_116Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@babel/runtime': [ '7.28.6' ],
+15 silly audit   '@esbuild/aix-ppc64': [ '0.25.12' ],
+15 silly audit   '@esbuild/android-arm': [ '0.25.12' ],
+15 silly audit   '@esbuild/android-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/android-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/darwin-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/darwin-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/freebsd-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/freebsd-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-arm': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-ia32': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-loong64': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-mips64el': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-ppc64': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-riscv64': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-s390x': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/netbsd-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/netbsd-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/openbsd-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/openbsd-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/openharmony-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/sunos-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/win32-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/win32-ia32': [ '0.25.12' ],
+15 silly audit   '@esbuild/win32-x64': [ '0.25.12' ],
+15 silly audit   '@floating-ui/core': [ '1.7.4' ],
+15 silly audit   '@floating-ui/dom': [ '1.7.5' ],
+15 silly audit   '@floating-ui/react-dom': [ '2.1.7' ],
+15 silly audit   '@floating-ui/utils': [ '0.2.10' ],
+15 silly audit   '@radix-ui/number': [ '1.1.1' ],
+15 silly audit   '@radix-ui/primitive': [ '1.1.3' ],
+15 silly audit   '@radix-ui/react-accordion': [ '1.2.12' ],
+15 silly audit   '@radix-ui/react-alert-dialog': [ '1.1.15' ],
+15 silly audit   '@radix-ui/react-slot': [ '1.2.3', '1.2.4' ],
+15 silly audit   '@radix-ui/react-arrow': [ '1.1.7' ],
+15 silly audit   '@radix-ui/react-aspect-ratio': [ '1.1.8' ],
+15 silly audit   '@radix-ui/react-primitive': [ '2.1.4', '2.1.3' ],
+15 silly audit   '@radix-ui/react-avatar': [ '1.1.11' ],
+15 silly audit   '@radix-ui/react-context': [ '1.1.3', '1.1.2' ],
+15 silly audit   '@radix-ui/react-checkbox': [ '1.3.3' ],
+15 silly audit   '@radix-ui/react-collapsible': [ '1.1.12' ],
+15 silly audit   '@radix-ui/react-collection': [ '1.1.7' ],
+15 silly audit   '@radix-ui/react-compose-refs': [ '1.1.2' ],
+15 silly audit   '@radix-ui/react-context-menu': [ '2.2.16' ],
+15 silly audit   '@radix-ui/react-dialog': [ '1.1.15' ],
+15 silly audit   '@radix-ui/react-direction': [ '1.1.1' ],
+15 silly audit   '@radix-ui/react-dismissable-layer': [ '1.1.11' ],
+15 silly audit   '@radix-ui/react-dropdown-menu': [ '2.1.16' ],
+15 silly audit   '@radix-ui/react-focus-guards': [ '1.1.3' ],
+15 silly audit   '@radix-ui/react-focus-scope': [ '1.1.7' ],
+15 silly audit   '@radix-ui/react-hover-card': [ '1.1.15' ],
+15 silly audit   '@radix-ui/react-id': [ '1.1.1' ],
+15 silly audit   '@radix-ui/react-label': [ '2.1.8' ],
+15 silly audit   '@radix-ui/react-menu': [ '2.1.16' ],
+15 silly audit   '@radix-ui/react-menubar': [ '1.1.16' ],
+15 silly audit   '@radix-ui/react-navigation-menu': [ '1.2.14' ],
+15 silly audit   '@radix-ui/react-popover': [ '1.1.15' ],
+15 silly audit   '@radix-ui/react-popper': [ '1.2.8' ],
+15 silly audit   '@radix-ui/react-portal': [ '1.1.9' ],
+15 silly audit   '@radix-ui/react-presence': [ '1.1.5' ],
+15 silly audit   '@radix-ui/react-progress': [ '1.1.8' ],
+15 silly audit   '@radix-ui/react-radio-group': [ '1.3.8' ],
+15 silly audit   '@radix-ui/react-roving-focus': [ '1.1.11' ],
+15 silly audit   '@radix-ui/react-scroll-area': [ '1.2.10' ],
+15 silly audit   '@radix-ui/react-select': [ '2.2.6' ],
+15 silly audit   '@radix-ui/react-separator': [ '1.1.8' ],
+15 silly audit   '@radix-ui/react-slider': [ '1.3.6' ],
+15 silly audit   '@radix-ui/react-switch': [ '1.2.6' ],
+15 silly audit   '@radix-ui/react-tabs': [ '1.1.13' ],
+15 silly audit   '@radix-ui/react-toggle': [ '1.1.10' ],
+15 silly audit   '@radix-ui/react-toggle-group': [ '1.1.11' ],
+15 silly audit   '@radix-ui/react-tooltip': [ '1.2.8' ],
+15 silly audit   '@radix-ui/react-use-callback-ref': [ '1.1.1' ],
+15 silly audit   '@radix-ui/react-use-controllable-state': [ '1.2.2' ],
+15 silly audit   '@radix-ui/react-use-effect-event': [ '0.0.2' ],
+15 silly audit   '@radix-ui/react-use-escape-keydown': [ '1.1.1' ],
+15 silly audit   '@radix-ui/react-use-is-hydrated': [ '0.1.0' ],
+15 silly audit   '@radix-ui/react-use-layout-effect': [ '1.1.1' ],
+15 silly audit   '@radix-ui/react-use-previous': [ '1.1.1' ],
+15 silly audit   '@radix-ui/react-use-rect': [ '1.1.1' ],
+15 silly audit   '@radix-ui/react-use-size': [ '1.1.1' ],
+15 silly audit   '@radix-ui/react-visually-hidden': [ '1.2.3' ],
+15 silly audit   '@radix-ui/rect': [ '1.1.1' ],
+15 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+15 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-android-arm64': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-darwin-arm64': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-darwin-x64': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-freebsd-x64': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-openbsd-x64': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.57.1' ],
+15 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.57.1' ],
+15 silly audit   '@swc/core': [ '1.15.11' ],
+15 silly audit   '@swc/core-darwin-arm64': [ '1.15.11' ],
+15 silly audit   '@swc/core-darwin-x64': [ '1.15.11' ],
+15 silly audit   '@swc/core-linux-arm-gnueabihf': [ '1.15.11' ],
+15 silly audit   '@swc/core-linux-arm64-gnu': [ '1.15.11' ],
+15 silly audit   '@swc/core-linux-arm64-musl': [ '1.15.11' ],
+15 silly audit   '@swc/core-linux-x64-gnu': [ '1.15.11' ],
+15 silly audit   '@swc/core-linux-x64-musl': [ '1.15.11' ],
+15 silly audit   '@swc/core-win32-arm64-msvc': [ '1.15.11' ],
+15 silly audit   '@swc/core-win32-ia32-msvc': [ '1.15.11' ],
+15 silly audit   '@swc/core-win32-x64-msvc': [ '1.15.11' ],
+15 silly audit   '@swc/counter': [ '0.1.3' ],
+15 silly audit   '@swc/types': [ '0.1.25' ],
+15 silly audit   '@types/d3-array': [ '3.2.2' ],
+15 silly audit   '@types/d3-color': [ '3.1.3' ],
+15 silly audit   '@types/d3-ease': [ '3.0.2' ],
+15 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+15 silly audit   '@types/d3-path': [ '3.1.1' ],
+15 silly audit   '@types/d3-scale': [ '4.0.9' ],
+15 silly audit   '@types/d3-shape': [ '3.1.8' ],
+15 silly audit   '@types/d3-time': [ '3.0.4' ],
+15 silly audit   '@types/d3-timer': [ '3.0.2' ],
+15 silly audit   '@types/estree': [ '1.0.8' ],
+15 silly audit   '@types/node': [ '20.19.33' ],
+15 silly audit   '@vitejs/plugin-react-swc': [ '3.11.0' ],
+15 silly audit   'aria-hidden': [ '1.2.6' ],
+15 silly audit   'class-variance-authority': [ '0.7.1' ],
+15 silly audit   clsx: [ '2.1.1' ],
+15 silly audit   cmdk: [ '1.1.1' ],
+15 silly audit   cookie: [ '1.1.1' ],
+15 silly audit   csstype: [ '3.2.3' ],
+15 silly audit   'd3-array': [ '3.2.4' ],
+15 silly audit   'd3-color': [ '3.1.0' ],
+15 silly audit   'd3-ease': [ '3.0.1' ],
+15 silly audit   'd3-format': [ '3.1.2' ],
+15 silly audit   'd3-interpolate': [ '3.0.1' ],
+15 silly audit   'd3-path': [ '3.1.0' ],
+15 silly audit   'd3-scale': [ '4.0.2' ],
+15 silly audit   'd3-shape': [ '3.2.0' ],
+15 silly audit   'd3-time': [ '3.1.0' ],
+15 silly audit   'd3-time-format': [ '4.1.0' ],
+15 silly audit   'd3-timer': [ '3.0.1' ],
+15 silly audit   'date-fns': [ '3.6.0' ],
+15 silly audit   'decimal.js-light': [ '2.5.1' ],
+15 silly audit   'detect-node-es': [ '1.1.0' ],
+15 silly audit   'dom-helpers': [ '5.2.1' ],
+15 silly audit   'embla-carousel': [ '8.6.0' ],
+15 silly audit   'embla-carousel-react': [ '8.6.0' ],
+15 silly audit   'embla-carousel-reactive-utils': [ '8.6.0' ],
+15 silly audit   esbuild: [ '0.25.12' ],
+15 silly audit   eventemitter3: [ '4.0.7' ],
+15 silly audit   'fast-equals': [ '5.4.0' ],
+15 silly audit   fdir: [ '6.5.0' ],
+15 silly audit   fsevents: [ '2.3.3' ],
+15 silly audit   'get-nonce': [ '1.0.1' ],
+15 silly audit   'input-otp': [ '1.4.2' ],
+15 silly audit   internmap: [ '2.0.3' ],
+15 silly audit   'js-tokens': [ '4.0.0' ],
+15 silly audit   lodash: [ '4.17.23' ],
+15 silly audit   'loose-envify': [ '1.4.0' ],
+15 silly audit   'lucide-react': [ '0.487.0' ],
+15 silly audit   nanoid: [ '3.3.11' ],
+15 silly audit   'next-themes': [ '0.4.6' ],
+15 silly audit   'object-assign': [ '4.1.1' ],
+15 silly audit   picocolors: [ '1.1.1' ],
+15 silly audit   picomatch: [ '4.0.3' ],
+15 silly audit   postcss: [ '8.5.6' ],
+15 silly audit   'prop-types': [ '15.8.1' ],
+15 silly audit   'react-is': [ '16.13.1', '18.3.1' ],
+15 silly audit   react: [ '18.3.1' ],
+15 silly audit   'react-day-picker': [ '8.10.1' ],
+15 silly audit   'react-dom': [ '18.3.1' ],
+15 silly audit   'react-hook-form': [ '7.71.1' ],
+15 silly audit   'react-remove-scroll': [ '2.7.2' ],
+15 silly audit   'react-remove-scroll-bar': [ '2.3.8' ],
+15 silly audit   'react-resizable-panels': [ '2.1.9' ],
+15 silly audit   'react-router': [ '7.13.0' ],
+15 silly audit   'react-smooth': [ '4.0.4' ],
+15 silly audit   'react-style-singleton': [ '2.2.3' ],
+15 silly audit   'react-transition-group': [ '4.4.5' ],
+15 silly audit   recharts: [ '2.15.4' ],
+15 silly audit   'recharts-scale': [ '0.4.5' ],
+15 silly audit   rollup: [ '4.57.1' ],
+15 silly audit   scheduler: [ '0.23.2' ],
+15 silly audit   'set-cookie-parser': [ '2.7.2' ],
+15 silly audit   sonner: [ '2.0.7' ],
+15 silly audit   'source-map-js': [ '1.2.1' ],
+15 silly audit   'tailwind-merge': [ '3.4.0' ],
+15 silly audit   'tiny-invariant': [ '1.3.3' ],
+15 silly audit   tinyglobby: [ '0.2.15' ],
+15 silly audit   tslib: [ '2.8.1' ],
+15 silly audit   'undici-types': [ '6.21.0' ],
+15 silly audit   'use-callback-ref': [ '1.3.3' ],
+15 silly audit   'use-sidecar': [ '1.1.3' ],
+15 silly audit   'use-sync-external-store': [ '1.6.0' ],
+15 silly audit   vaul: [ '1.1.2' ],
+15 silly audit   'victory-vendor': [ '36.9.2' ],
+15 silly audit   vite: [ '6.3.5' ]
+15 silly audit }
+16 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1090ms
+17 silly audit report {
+17 silly audit report   lodash: [
+17 silly audit report     {
+17 silly audit report       id: 1115806,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-r5fr-rjxr-66jc',
+17 silly audit report       title: 'lodash vulnerable to Code Injection via `_.template` imports key names',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '>=4.0.0 <=4.17.23',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1115810,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-f23m-r3pf-42rh',
+17 silly audit report       title: 'lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<=4.17.23',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   nanoid: [
+17 silly audit report     {
+17 silly audit report       id: 1138811,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-28wg-ghj8-5hjv',
+17 silly audit report       title: 'nanoid: non-secure generators can loop indefinitely with negative size',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '<3.3.16',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1139427,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-2v37-7h3g-55p8',
+17 silly audit report       title: 'nanoid: custom generators can loop indefinitely when size is zero',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '<3.3.18',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1153189,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-xwg4-73v4-xw9w',
+17 silly audit report       title: 'nanoid: Integer Overflow or Wraparound',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '<3.3.12',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   picomatch: [
+17 silly audit report     {
+17 silly audit report       id: 1115551,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-3v7f-55p6-f55p',
+17 silly audit report       title: 'Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '>=4.0.0 <4.0.4',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1115554,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-c2c7-rcm5-vvqj',
+17 silly audit report       title: 'Picomatch has a ReDoS vulnerability via extglob quantifiers',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '>=4.0.0 <4.0.4',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   postcss: [
+17 silly audit report     {
+17 silly audit report       id: 1130709,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-fxqj-rqcc-2cmp',
+17 silly audit report       title: 'PostCSS: incomplete fix of GHSA-6g55-p6wh-862q — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<=8.5.22',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1117015,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-qx2v-qp2m-jg93',
+17 silly audit report       title: 'PostCSS has XSS via Unescaped </style> in its CSS Stringify Output',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<8.5.10',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1124252,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-6g55-p6wh-862q',
+17 silly audit report       title: 'PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '<=8.5.11',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1139510,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-r28c-9q8g-f849',
+17 silly audit report       title: 'PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '<=8.5.17',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   'react-router': [
+17 silly audit report     {
+17 silly audit report       id: 1120063,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-49rj-9fvp-4h2h',
+17 silly audit report       title: "React Router's vendored turbo-stream v2 allows arbitrary constructor invocation via TYPE_ERROR deserialization leading to Unauth RCE",
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '>=7.0.0 <=7.14.1',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1120066,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-8646-j5j9-6r62',
+17 silly audit report       title: 'React Router vulnerable to XSS in unstable RSC redirect handling via javascript: redirect targets',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '>=7.7.0 <7.13.2',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1120069,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-8x6r-g9mw-2r78',
+17 silly audit report       title: 'React Router vulnerable to DoS via unbounded path expansion in __manifest endpoint',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '>=7.0.0 <7.15.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1120081,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-rxv8-25v2-qmq8',
+17 silly audit report       title: 'React Router vulnerable to Denial of Service via reflected user input in single-fetch',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '>=7.0.0 <7.14.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1120807,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-84g9-w2xq-vcv6',
+17 silly audit report       title: 'React Router: Potential CSRF via PUT/PATCH/DELETE document requests',
+17 silly audit report       severity: 'low',
+17 silly audit report       vulnerable_versions: '>=7.12.0 <7.15.1',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1124268,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-wrjc-x8rr-h8h6',
+17 silly audit report       title: 'React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass)',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '>=6.0.0 <7.18.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1124271,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-h8fp-f39c-q6mh',
+17 silly audit report       title: 'React Router: RSCErrorHandler Missing Protocol Validation (XSS)',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '>=7.11.0 <7.18.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1124272,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-337j-9hxr-rhxg',
+17 silly audit report       title: 'React Router: Arbitrary Constructor Injection via deserializeErrors() in React Router SSR Hydration',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '>=6.4.0 <7.18.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1124276,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-chx6-hx7r-mcp5',
+17 silly audit report       title: 'React Router: Unauthenticated Denial of Service via Inefficient Route Matching',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '>=7.0.0 <7.18.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1136304,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-2j2x-hqr9-3h42',
+17 silly audit report       title: "React Router's same-origin redirect with path starting // causes open redirect via protocol-relative URL reinterpretation",
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '>=7.0.0 <7.14.1',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1138769,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-qwww-vcr4-c8h2',
+17 silly audit report       title: 'React Router: RSC Mode CSRF Bypass Allows Action Execution Before 400 Response',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '>=7.12.0 <7.18.2',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1193653,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-f22v-gfqf-p8f3',
+17 silly audit report       title: 'React Router has stored XSS via unescaped Location header in prerendered redirect HTML',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '>=7.5.1 <7.13.2',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   rollup: [
+17 silly audit report     {
+17 silly audit report       id: 1113515,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-mw96-cpmx-2vgc',
+17 silly audit report       title: 'Rollup 4 has Arbitrary File Write via Path Traversal',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '>=4.0.0 <4.59.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   'source-map-js': [
+17 silly audit report     {
+17 silly audit report       id: 1241209,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-68fv-2mgg-jv7q',
+17 silly audit report       title: 'source-map-js allows event-loop denial of service through indexed source-map section offsets',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '>=1.0.0 <1.2.2',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   vite: [
+17 silly audit report     {
+17 silly audit report       id: 1107324,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-g4jq-h2w9-997c',
+17 silly audit report       title: 'Vite middleware may serve files starting with the same name with the public directory',
+17 silly audit report       severity: 'low',
+17 silly audit report       vulnerable_versions: '>=6.0.0 <=6.3.5',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1107328,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-jqfw-vq24-v9c3',
+17 silly audit report       title: "Vite's `server.fs` settings were not applied to HTML files",
+17 silly audit report       severity: 'low',
+17 silly audit report       vulnerable_versions: '>=6.0.0 <=6.3.5',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1109135,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-93m4-6634-74q7',
+17 silly audit report       title: 'vite allows server.fs.deny bypass via backslash on Windows',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '>=6.0.0 <=6.4.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1120784,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-v6wh-96g9-6wx3',
+17 silly audit report       title: 'launch-editor: NTLMv2 hash disclosure via UNC path handling on Windows',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<=6.4.2',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1116229,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-4w7w-66w2-5vf9',
+17 silly audit report       title: 'Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<=6.4.1',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1116234,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-p9ff-h696-f583',
+17 silly audit report       title: 'Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '>=6.0.0 <=6.4.1',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1123525,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-fx2h-pf6j-xcff',
+17 silly audit report       title: 'vite: `server.fs.deny` bypass on Windows alternate paths',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '<=6.4.2',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1242724,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-9jrq-w75r-8gcw',
+17 silly audit report       title: 'Vite: Cross origin script execution through Vite custom middleware',
+17 silly audit report       severity: 'low',
+17 silly audit report       vulnerable_versions: '<=6.4.3',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1242730,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-rq7h-c2jc-7f22',
+17 silly audit report       title: 'Vite: Files outside `server.fs.allow` could be served when project paths match system paths on non-Windows machine',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<=6.4.3',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1242622,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-698v-4r3x-3vcv',
+17 silly audit report       title: 'launch-editor: escapeCmdArgs() omits % escaping on Windows',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<=6.4.3',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1242651,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-r825-w8mm-5pxw',
+17 silly audit report       title: 'launch-editor: Editor CLI flag misinterpretation causing arbitrary command execution for some editors',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<=6.4.3',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1242658,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-587h-7wmj-h5pm',
+17 silly audit report       title: 'launch-editor: `fs.existsSync()` existence check can be bypassed on Windows',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '<=6.4.3',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ]
+17 silly audit report }
+18 silly packumentCache corgi:https://registry.npmjs.org/lodash cache-miss
+19 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+20 silly packumentCache corgi:https://registry.npmjs.org/picomatch cache-miss
+21 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+22 silly packumentCache corgi:https://registry.npmjs.org/react-router cache-miss
+23 silly packumentCache corgi:https://registry.npmjs.org/rollup cache-miss
+24 silly packumentCache corgi:https://registry.npmjs.org/source-map-js cache-miss
+25 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/lodash 254ms (cache miss)
+27 silly packumentCache corgi:https://registry.npmjs.org/lodash set size:undefined disposed:false
+28 http fetch GET 200 https://registry.npmjs.org/npm 1653ms
+29 http fetch GET 200 https://registry.npmjs.org/picomatch 765ms (cache miss)
+30 silly packumentCache corgi:https://registry.npmjs.org/picomatch set size:undefined disposed:false
+31 http fetch GET 200 https://registry.npmjs.org/nanoid 918ms (cache miss)
+32 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+33 http fetch GET 200 https://registry.npmjs.org/source-map-js 931ms (cache miss)
+34 silly packumentCache corgi:https://registry.npmjs.org/source-map-js set size:undefined disposed:false
+35 http fetch GET 200 https://registry.npmjs.org/postcss 953ms (cache miss)
+36 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:undefined disposed:false
+37 http fetch GET 200 https://registry.npmjs.org/react-router 1757ms (cache miss)
+38 silly packumentCache corgi:https://registry.npmjs.org/react-router set size:undefined disposed:false
+39 http fetch GET 200 https://registry.npmjs.org/vite 2069ms (cache updated)
+40 silly packumentCache corgi:https://registry.npmjs.org/vite set size:undefined disposed:false
+41 http fetch GET 200 https://registry.npmjs.org/rollup 2240ms (cache updated)
+42 silly packumentCache corgi:https://registry.npmjs.org/rollup set size:undefined disposed:false
+43 silly packumentCache corgi:https://registry.npmjs.org/recharts cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/recharts 590ms (cache miss)
+45 silly packumentCache corgi:https://registry.npmjs.org/recharts set size:undefined disposed:false
+46 silly packumentCache corgi:https://registry.npmjs.org/fdir cache-miss
+47 silly packumentCache corgi:https://registry.npmjs.org/tinyglobby cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/tinyglobby 136ms (cache miss)
+49 silly packumentCache corgi:https://registry.npmjs.org/tinyglobby set size:undefined disposed:false
+50 http fetch GET 200 https://registry.npmjs.org/fdir 139ms (cache miss)
+51 silly packumentCache corgi:https://registry.npmjs.org/fdir set size:undefined disposed:false
+52 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react-swc cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react-swc 500ms (cache updated)
+54 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react-swc set size:undefined disposed:false
+55 verbose cwd C:\Users\sures\Downloads\ML Early Warning System
+56 verbose os Windows_NT 10.0.26300
+57 verbose node v24.13.0
+58 verbose npm  v11.6.2
+59 notice
+59 notice New [33mminor[39m version of npm available! [33m11.6.2[39m -> [34m11.21.1[39m
+59 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.21.1[39m
+59 notice To update run: [4mnpm install -g npm@11.21.1[24m
+59 notice  { force: true, Symbol(proc-log.meta): true }
+60 verbose exit 0
+61 info ok
